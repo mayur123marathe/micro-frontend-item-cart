@@ -33,7 +33,7 @@ module.exports = {
       filename: "remoteEntry.js",
 
       remotes: {
-        store_remote: process.env.STORE_REMOTE_URL,
+        store_remote: `store_remote@${process.env.STORE_REMOTE_URL}`,
       },
 
       exposes: {
