@@ -1,0 +1,63 @@
+.card-details {
+  display: inline-block;
+  width: 210px;
+  height: 330px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.card-details:hover {
+  cursor: pointer;
+}
+.card-details button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #00a859;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.card-details button:hover {
+  background-color: #007f44;
+  transform: scale(1.02);
+}
+
+.card-details button:active {
+  transform: scale(0.98);
+}
+
+.card-details button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.card-details img {
+  width: 98%;
+}
+
+.price,
+.item-title,
+.card-details div:nth-of-type(3),
+.card-details div:nth-of-type(4) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: block;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.item-title {
+  font-size: 17px;
+  padding: 5px 0;
+  font-weight: bold;
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": false,
+    "strict": true,
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "lib": ["DOM", "ES2015"]
+  },
+  "include": ["src", "src/types"],
+  "exclude": ["node_modules", "dist", "build", "coverage", "test", "tests"]
+}
